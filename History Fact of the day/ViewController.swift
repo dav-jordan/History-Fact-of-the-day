@@ -13,11 +13,27 @@ class ViewController: UIViewController
 {
     //Outlet for text field for fact
     @IBOutlet weak var FactText: UITextField!
-    
+
+    //array of strings that will hold all of teh possible facts
+    var factsArray:[String] = [" "]
+
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        //initialize all facts in factsArray
+        //this loop is just for debugging
+        //TODO: *This works* hardcode in facts after it is clear that it works
+        var i = 0
+        while i < 200
+        {
+            //print to confirm append for debugging
+            print("Appending fact #\(i+1)")
+
+            //append to string
+            factsArray.append("fact #\(i+1)")
+            i = i+1
+        }
     }
 
     override func didReceiveMemoryWarning()
