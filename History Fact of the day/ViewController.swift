@@ -11,13 +11,14 @@ import UIKit
 
 class ViewController: UIViewController
 {
-
+    //Outlet for text field for fact
+    @IBOutlet weak var FactText: UITextField!
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
 
     override func didReceiveMemoryWarning()
     {
@@ -25,6 +26,10 @@ class ViewController: UIViewController
         // Dispose of any resources that can be recreated.
     }
 
-
+    //IBAction for when button is pressed
+    @IBAction func ButtonPressed(_ sender: UIButton)
+    {
+    }
+    
 
 }
