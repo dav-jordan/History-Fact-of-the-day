@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift" line="53" />
+    <bookmark url="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift" line="57" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbece303-2bd0-4dac-bb63-4f6e34608b55" name="Default" comment="">
+    <list default="true" id="bbece303-2bd0-4dac-bb63-4f6e34608b55" name="Default" comment="Initiated factText to greet the user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/History Fact of the day.xcodeproj/project.xcworkspace/xcuserdata/Davis.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/History Fact of the day.xcodeproj/project.xcworkspace/xcuserdata/Davis.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change beforePath="$PROJECT_DIR$/History Fact of the day/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/History Fact of the day/Base.lproj/Main.storyboard" />
+      <change beforePath="$PROJECT_DIR$/History Fact of the day/ViewController.swift" afterPath="$PROJECT_DIR$/History Fact of the day/ViewController.swift" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +21,8 @@
       <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+            <state relative-caret-position="260">
+              <caret line="31" column="71" lean-forward="false" selection-start-line="31" selection-start-column="71" selection-end-line="31" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -129,7 +128,7 @@
       <workItem from="1513529348292" duration="77000" />
       <workItem from="1513530300825" duration="2980000" />
       <workItem from="1513548111972" duration="117000" />
-      <workItem from="1513548962488" duration="703000" />
+      <workItem from="1513548962488" duration="870000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed indenting that was triggering me.">
       <created>1513529183302</created>
@@ -187,11 +186,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513549300686</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Changed background to be black and text color to be white">
+      <created>1513550573784</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1513550573784</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4703000" />
+    <option name="totallyTimeSpent" value="4870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="757" extended-state="0" />
@@ -233,7 +239,8 @@
     <MESSAGE value="Added functionality to button pressed action. *Testing needed*" />
     <MESSAGE value="Changed text field to text view so it can be more than one line" />
     <MESSAGE value="Made text field read only" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made text field read only" />
+    <MESSAGE value="Changed background to be black and text color to be white" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed background to be black and text color to be white" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -290,8 +297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+        <state relative-caret-position="260">
+          <caret line="31" column="71" lean-forward="false" selection-start-line="31" selection-start-column="71" selection-end-line="31" selection-end-column="71" />
           <folding />
         </state>
       </provider>

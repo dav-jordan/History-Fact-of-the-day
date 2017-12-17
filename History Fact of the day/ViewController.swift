@@ -27,6 +27,10 @@ class ViewController: UIViewController
         //makes text field for fact read only
         FactText.isEditable = false
 
+        //initiate factText to be a nice greeting :)
+        FactText.text = "Hello!\n" +
+                        "Click the button below to learn something new!"
+
         //initialize all facts in factsArray
         //this loop is just for debugging
         //TODO: *This works* hardcode in facts after it is clear that it works
