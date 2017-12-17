@@ -11,6 +11,9 @@ import UIKit
 
 class ViewController: UIViewController
 {
+    //maximum amount of facts that can be in facts array
+    let MAX_FACTS = 200
+
     //Outlet for text field for fact
     @IBOutlet weak var FactText: UITextField!
 
@@ -25,7 +28,7 @@ class ViewController: UIViewController
         //this loop is just for debugging
         //TODO: *This works* hardcode in facts after it is clear that it works
         var i = 0
-        while i < 200
+        while i < MAX_FACTS
         {
             //print to confirm append for debugging
             print("Appending fact #\(i+1)")
