@@ -24,6 +24,9 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
 
+        //makes text field for fact read only
+        FactText.isEditable = false
+
         //initialize all facts in factsArray
         //this loop is just for debugging
         //TODO: *This works* hardcode in facts after it is clear that it works
