@@ -12,7 +12,7 @@ import UIKit
 class ViewController: UIViewController
 {
     //maximum amount of facts that can be in facts array
-    let MAX_FACTS = 200
+    let MAX_FACTS:UInt32 = 200
 
     //Outlet for text field for fact
     @IBOutlet weak var FactText: UITextField!
@@ -49,6 +49,8 @@ class ViewController: UIViewController
     @IBAction func ButtonPressed(_ sender: UIButton)
     {
         print("Button pressed")
+        let sub:Int = Int(arc4random_uniform(MAX_FACTS))
+        FactText.text = factsArray[sub]
     }
     
 
