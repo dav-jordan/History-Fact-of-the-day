@@ -15,9 +15,9 @@ class ViewController: UIViewController
     let MAX_FACTS:UInt32 = 200
 
     //Outlet for text field for fact
-    @IBOutlet weak var FactText: UITextField!
+    @IBOutlet weak var FactText: UITextView!
 
-    //array of strings that will hold all of teh possible facts
+    //array of strings that will hold all of the possible facts
     var factsArray:[String] = [" "]
 
     override func viewDidLoad()
