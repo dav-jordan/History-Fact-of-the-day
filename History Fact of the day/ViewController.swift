@@ -32,18 +32,6 @@ class ViewController: UIViewController
                         "Click the button below to learn something new!"
 
         //initialize all facts in factsArray
-        //this loop is just for debugging
-        //TODO: *This works* hardcode in facts after it is clear that it works
-        var i = 0
-        while i < MAX_FACTS
-        {
-            //print to confirm append for debugging
-            print("Appending fact #\(i+1)")
-
-            //append to string
-            factsArray.append("fact #\(i+1)")
-            i = i+1
-        }
         makeFacts()
     }
 
@@ -60,7 +48,7 @@ class ViewController: UIViewController
         let sub:Int = Int(arc4random_uniform(MAX_FACTS))
         FactText.text = factsArray[sub]
     }
-    
+
     func makeFacts()
     {
         print("Test")
