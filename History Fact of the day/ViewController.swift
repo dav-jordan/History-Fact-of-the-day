@@ -51,7 +51,11 @@ class ViewController: UIViewController
 
     func makeFacts()
     {
-        print("Test")
+        factsArray[0] = "This is fact #1"
+        factsArray[1] = "This is fact #2"
+        factsArray[2] = "This is fact #3"
+        factsArray[3] = "This is fact #4"
+        factsArray[4] = "This is fact #5"
     }
 
 }
