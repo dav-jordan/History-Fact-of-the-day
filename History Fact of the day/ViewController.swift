@@ -49,6 +49,12 @@ class ViewController: UIViewController
         FactText.text = factsArray[sub]
     }
 
+    /*  -I apologize to anyone reading this code at this point
+        -the makeFacts function initializes all the facts in the facts array
+        -I couldn't really find a better way of doing this other thn hard coding everything
+         so sorry for making this unreadable
+        -I'll save you some time by telling you that the rest of this file is hard coding
+    */
     func makeFacts()
     {
         factsArray[0] = "This is fact #1"
