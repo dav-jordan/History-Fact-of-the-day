@@ -44,6 +44,7 @@ class ViewController: UIViewController
             factsArray.append("fact #\(i+1)")
             i = i+1
         }
+        makeFacts()
     }
 
     override func didReceiveMemoryWarning()
@@ -60,5 +61,9 @@ class ViewController: UIViewController
         FactText.text = factsArray[sub]
     }
     
+    func makeFacts()
+    {
+        print("Test")
+    }
 
 }
