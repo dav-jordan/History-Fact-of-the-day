@@ -12,7 +12,7 @@ import UIKit
 class ViewController: UIViewController
 {
     //maximum amount of facts that can be in facts array
-    let MAX_FACTS:UInt32 = 200
+    let MAX_FACTS:UInt32 = 5
 
     //Outlet for text field for fact
     @IBOutlet weak var FactText: UITextView!
