@@ -32,7 +32,7 @@ class ViewController: UIViewController
                         "Click the button below to learn something new!"
 
         //initialize all facts in factsArray
-        makeFacts()
+        makeFacts(max: Int(MAX_FACTS))
     }
 
     override func didReceiveMemoryWarning()
@@ -55,7 +55,7 @@ class ViewController: UIViewController
          so sorry for making this unreadable
         -I'll save you some time by telling you that the rest of this file is hard coding
     */
-    func makeFacts()
+    func makeFacts(max: Int)
     {
         factsArray[0] = "This is fact #1"
         factsArray.append("This is fact #2")
