@@ -12,7 +12,7 @@ import UIKit
 class ViewController: UIViewController
 {
     //maximum amount of facts that can be in facts array
-    let MAX_FACTS:UInt32 = 3
+    let MAX_FACTS:UInt32 = 50
 
     //Outlet for text field for fact
     @IBOutlet weak var FactText: UITextView!
@@ -91,6 +91,271 @@ class ViewController: UIViewController
         }
         i = i + 1
 
+        factsArray.append("This is fact #6")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #7")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #8")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #9")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #10")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #11")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #12")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #13")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #14")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #15")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #16")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #17")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #18")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #19")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #20")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #21")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #22")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #23")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #24")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #25")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #26")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #27")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #28")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #29")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #30")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #31")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #32")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #33")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #34")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #35")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #36")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #37")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #38")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #39")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #40")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #41")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #42")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #43")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #44")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #45")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #46")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #47")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #48")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #49")
+        if i == max {
+            return
+        }
+        i = i + 1
+
+        factsArray.append("This is fact #50")
     }
 
 }

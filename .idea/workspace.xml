@@ -22,18 +22,8 @@
       <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppDelegate.swift" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/History Fact of the day/AppDelegate.swift">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="167">
+              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -140,7 +130,7 @@
       <workItem from="1513530300825" duration="2980000" />
       <workItem from="1513548111972" duration="117000" />
       <workItem from="1513548962488" duration="1300000" />
-      <workItem from="1513708773037" duration="2618000" />
+      <workItem from="1513708773037" duration="3047000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed indenting that was triggering me.">
       <created>1513529183302</created>
@@ -275,11 +265,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513791614790</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Changed max number of facts for testing">
+      <created>1513792058823</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1513792058823</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7918000" />
+    <option name="totallyTimeSpent" value="8347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1445" y="40" width="1075" height="1025" extended-state="0" />
@@ -332,7 +329,8 @@
     <MESSAGE value="Fixed index errors" />
     <MESSAGE value="Added int parameter to makeFacts function" />
     <MESSAGE value="Added condition checks in makeFacts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added condition checks in makeFacts" />
+    <MESSAGE value="Changed max number of facts for testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed max number of facts for testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -397,8 +395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="167">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding />
         </state>
       </provider>
