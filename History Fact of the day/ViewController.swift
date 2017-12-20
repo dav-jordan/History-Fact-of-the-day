@@ -13,7 +13,7 @@ class ViewController: UIViewController
 {
     //maximum amount of facts that can be in facts array
     //must be greater than 0
-    let MAX_FACTS:UInt32 = 50
+    let MAX_FACTS:UInt32 = 5
 
     //Outlet for text field for fact
     @IBOutlet weak var FactText: UITextView!
@@ -64,7 +64,7 @@ class ViewController: UIViewController
         var i:Int = 1
 
         factsArray[0] = "The shortest war in history was the Anglo-Zanzibar war of 1896.\n" +
-                        "It was 38 minutes"
+                        "It was 38 minutes."
         if i == max {
             return
         }
@@ -88,25 +88,27 @@ class ViewController: UIViewController
         }
         i = i + 1
 
-        factsArray.append("The \("D") in D-Day stands for \("Day").")
+        factsArray.append("The \"D\" in D-Day stands for \"Day\".")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #6")
+        factsArray.append("The Constitution of the Confederate States of America\n" +
+                          "banned the slave trade.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #7")
+        factsArray.append("England's King George I was German.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #8")
+        factsArray.append("The parliament of Iceland is the oldest still acting parliament in the world.\n" +
+                "It was established in 930.")
         if i == max {
             return
         }
