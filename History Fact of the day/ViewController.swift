@@ -12,6 +12,7 @@ import UIKit
 class ViewController: UIViewController
 {
     //maximum amount of facts that can be in facts array
+    //must be greater than 0
     let MAX_FACTS:UInt32 = 50
 
     //Outlet for text field for fact
@@ -53,7 +54,8 @@ class ViewController: UIViewController
         -the makeFacts function initializes all the facts in the facts array
         -I couldn't really find a better way of doing this other thn hard coding everything
          so sorry for making this unreadable
-        -I'll save you some time by telling you that the rest of this file is hard coding
+        -I'll save you some time by telling you that the rest of this file is just hard
+         coding and condition checking
     */
     func makeFacts(max: Int)
     {
@@ -61,31 +63,32 @@ class ViewController: UIViewController
         //@return if i = max
         var i:Int = 1
 
-        factsArray[0] = "This is fact #1"
+        factsArray[0] = "The shortest war in history was the Anglo-Zanzibar war of 1896.\n" +
+                        "It was 38 minutes"
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #2")
+        factsArray.append("Napoleon was once attacked by rabbits.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #3")
+        factsArray.append("In 1952, Albert Einstein was offered the role of Israel's second president.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #4")
+        factsArray.append("Karl Marx once worked for the New York Daily Tribune.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #5")
+        factsArray.append("The \("D") in D-Day stands for \("Day").")
         if i == max {
             return
         }
