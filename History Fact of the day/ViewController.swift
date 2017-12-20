@@ -57,11 +57,40 @@ class ViewController: UIViewController
     */
     func makeFacts(max: Int)
     {
+        //initialize counter to compare with MAX_FACTS whenever a fact is added
+        //@return if i = max
+        var i:Int = 1
+
         factsArray[0] = "This is fact #1"
+        if i == max {
+            return
+        }
+        i = i + 1
+
         factsArray.append("This is fact #2")
+        if i == max {
+            return
+        }
+        i = i + 1
+
         factsArray.append("This is fact #3")
+        if i == max {
+            return
+        }
+        i = i + 1
+
         factsArray.append("This is fact #4")
+        if i == max {
+            return
+        }
+        i = i + 1
+
         factsArray.append("This is fact #5")
+        if i == max {
+            return
+        }
+        i = i + 1
+
     }
 
 }
