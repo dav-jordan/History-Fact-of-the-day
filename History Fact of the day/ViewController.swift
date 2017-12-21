@@ -239,7 +239,7 @@ class ViewController: UIViewController
         }
         i = i + 1
 
-        factsArray.append("This is fact #29")
+        factsArray.append("Ancient Egyptians used stone slabs as pillows.")
         if i == max {
             return
         }
