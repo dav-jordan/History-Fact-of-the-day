@@ -197,19 +197,19 @@ class ViewController: UIViewController
         }
         i = i + 1
 
-        factsArray.append("This is fact #22")
+        factsArray.append("Shakespeare invented \"Yo momma\" jokes.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #23")
+        factsArray.append("High heels were originally made for men.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #24")
+        factsArray.append("There is no evidence that pirates made people walk the plank.")
         if i == max {
             return
         }
