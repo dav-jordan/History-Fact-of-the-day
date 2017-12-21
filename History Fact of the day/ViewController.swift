@@ -114,43 +114,46 @@ class ViewController: UIViewController
         }
         i = i + 1
 
-        factsArray.append("This is fact #9")
+        factsArray.append("The largest nuclear bomb ever built caused damage 1,000 km away from it.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #10")
+        factsArray.append("In 1945, a Japanese man survived an atomic blast in Hiroshima " +
+                          "and caught the morning train to his job in Nagasaki, where he survived another.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #11")
+        factsArray.append("Charles Darwin and Abraham Lincoln were born on the same day.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #12")
+        factsArray.append("In the Victorian era, there were special tea cups that protected " +
+                          "your moustache from getting in your tea.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #13")
+        factsArray.append("There are scrolls from ancient Japan with drawings that suggest that " +
+                          "fart battles took place.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #14")
+        factsArray.append("The original Cinderella was Egyptian and had fur slippers.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #15")
+        factsArray.append("Ancient Egyptians believed that the only function of the brain was to produce snot.")
         if i == max {
             return
         }
