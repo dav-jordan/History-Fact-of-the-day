@@ -22,8 +22,8 @@
       <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="161" column="43" lean-forward="false" selection-start-line="161" selection-start-column="43" selection-end-line="161" selection-end-column="43" />
+            <state relative-caret-position="732">
+              <caret line="179" column="41" lean-forward="false" selection-start-line="179" selection-start-column="41" selection-end-line="179" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -131,7 +131,7 @@
       <workItem from="1513548111972" duration="117000" />
       <workItem from="1513548962488" duration="1300000" />
       <workItem from="1513708773037" duration="3545000" />
-      <workItem from="1513804955889" duration="1933000" />
+      <workItem from="1513804955889" duration="2160000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed indenting that was triggering me.">
       <created>1513529183302</created>
@@ -294,11 +294,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513805961418</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added up to fact 15">
+      <created>1513878783447</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1513878783447</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10778000" />
+    <option name="totallyTimeSpent" value="11005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="133" y="40" width="1282" height="954" extended-state="0" />
@@ -355,7 +362,8 @@
     <MESSAGE value="Added more placeholder facts until there were 50 facts available" />
     <MESSAGE value="Added facts 1-5" />
     <MESSAGE value="Added a few more facts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a few more facts" />
+    <MESSAGE value="Added up to fact 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added up to fact 15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -426,8 +434,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="161" column="43" lean-forward="false" selection-start-line="161" selection-start-column="43" selection-end-line="161" selection-end-column="43" />
+        <state relative-caret-position="732">
+          <caret line="179" column="41" lean-forward="false" selection-start-line="179" selection-start-column="41" selection-end-line="179" selection-end-column="41" />
           <folding />
         </state>
       </provider>

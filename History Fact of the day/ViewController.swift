@@ -159,19 +159,19 @@ class ViewController: UIViewController
         }
         i = i + 1
 
-        factsArray.append("This is fact #16")
+        factsArray.append("Leonardo Da Vinci would buy caged animals at the market just to set them free.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #17")
+        factsArray.append("After being seized by the feds, Al Capone's armored limousine was used to protect FDR.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #18")
+        factsArray.append("During the Cold War, the US had planned to nuke the moon.")
         if i == max {
             return
         }
