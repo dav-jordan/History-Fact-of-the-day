@@ -177,19 +177,21 @@ class ViewController: UIViewController
         }
         i = i + 1
 
-        factsArray.append("This is fact #19")
+        factsArray.append("There is a bar in Ireland that was opened in 900 AD.\n" +
+                          " It is currently called Sean's Bar.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #20")
+        factsArray.append("A singing birthday card has more computing power than the allies in 1945.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #21")
+        factsArray.append("During World War 1, wolf attacks became such a problem that there was a " +
+                          "temporary cease fire to fight off the wolves.")
         if i == max {
             return
         }
