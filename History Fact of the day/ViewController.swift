@@ -215,25 +215,25 @@ class ViewController: UIViewController
         }
         i = i + 1
 
-        factsArray.append("This is fact #25")
+        factsArray.append("The first ship to use the SOS signal was the Titanic.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #26")
+        factsArray.append("Grenades were invented in China 1,000 years ago.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #27")
+        factsArray.append("In 1999, Pepsi, Inc. paid $0.00 income tax.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #28")
+        factsArray.append("The first Ford cars had engines made by Dodge.")
         if i == max {
             return
         }
