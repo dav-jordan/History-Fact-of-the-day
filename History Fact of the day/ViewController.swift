@@ -297,19 +297,20 @@ class ViewController: UIViewController
         }
         i = i + 1
 
-        factsArray.append("This is fact #38")
+        factsArray.append("The Romans used urine as mouthwash.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #39")
+        factsArray.append("Animals were put on trial in medieval times.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #40")
+        factsArray.append("In the 16th century, wealth Europeans would eat corpses, thinking it would " +
+                          "cure ailments.")
         if i == max {
             return
         }
