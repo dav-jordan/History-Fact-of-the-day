@@ -245,19 +245,20 @@ class ViewController: UIViewController
         }
         i = i + 1
 
-        factsArray.append("This is fact #30")
+        factsArray.append("Before dentures were invented, teeth were pulled from dead soldiers to be used.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #31")
+        factsArray.append("The largest living organism in the world is a giant mushroom in Oregon.\n " +
+                          "It's roots cover over 2,200 acres.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #32")
+        factsArray.append("Heroin used to be prescribed by doctors for cough and headache.")
         if i == max {
             return
         }
