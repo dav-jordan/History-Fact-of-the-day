@@ -264,31 +264,34 @@ class ViewController: UIViewController
         }
         i = i + 1
 
-        factsArray.append("This is fact #33")
+        factsArray.append("Stalin would have photos retouched so that they didn't have people who " +
+                          "had died or been removed from office.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #34")
+        factsArray.append("Kim Jong-il wrote six operas.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #35")
+        factsArray.append("The leaning tower of Pisa was never straight. The foundation began to " +
+                          "sink after construction on the second floor began.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #36")
+        factsArray.append("The largest bird to ever exist had a wingspan of 20 feet.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #37")
+        factsArray.append("In ancient Egypt, servants were smeared with honey to attract flies " +
+                          "away from the pharaoh.")
         if i == max {
             return
         }
