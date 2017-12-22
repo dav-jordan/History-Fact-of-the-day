@@ -21,8 +21,8 @@
       <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="312" column="41" lean-forward="false" selection-start-line="312" selection-start-column="41" selection-end-line="312" selection-end-column="41" />
+            <state relative-caret-position="508">
+              <caret line="331" column="97" lean-forward="false" selection-start-line="331" selection-start-column="97" selection-end-line="331" selection-end-column="97" />
               <folding />
             </state>
           </provider>
@@ -132,7 +132,7 @@
       <workItem from="1513708773037" duration="3545000" />
       <workItem from="1513804955889" duration="3287000" />
       <workItem from="1513882224398" duration="311000" />
-      <workItem from="1513971539214" duration="939000" />
+      <workItem from="1513971539214" duration="1151000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed indenting that was triggering me.">
       <created>1513529183302</created>
@@ -358,11 +358,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513972360481</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Added a few facts">
+      <created>1513972564992</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1513972564992</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13382000" />
+    <option name="totallyTimeSpent" value="13594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="84" y="23" width="1299" height="770" extended-state="0" />
@@ -508,8 +515,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="312" column="41" lean-forward="false" selection-start-line="312" selection-start-column="41" selection-end-line="312" selection-end-column="41" />
+        <state relative-caret-position="508">
+          <caret line="331" column="97" lean-forward="false" selection-start-line="331" selection-start-column="97" selection-end-line="331" selection-end-column="97" />
           <folding />
         </state>
       </provider>

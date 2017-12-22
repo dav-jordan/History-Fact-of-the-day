@@ -316,19 +316,20 @@ class ViewController: UIViewController
         }
         i = i + 1
 
-        factsArray.append("This is fact #41")
+        factsArray.append("A Soviet biologist once attempted to make a \"humanzee\".\n" +
+                          "I know what you're thinking, and no he didn't.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #42")
+        factsArray.append("Saddam Hussein was given the key to Detroit.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #43")
+        factsArray.append("In early Rome, it was legal for a father to kill anyone in his family.")
         if i == max {
             return
         }
