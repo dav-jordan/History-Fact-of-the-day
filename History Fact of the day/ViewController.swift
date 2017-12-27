@@ -365,13 +365,13 @@ class ViewController: UIViewController
         }
         i = i + 1
 
-        factsArray.append("This is fact #49")
+        factsArray.append("A good night of sleep used to mean waking up in the middle.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #50")
+        factsArray.append("In 1820, Salem held a trial against tomatoes.")
     }
 
 }

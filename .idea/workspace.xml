@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bbece303-2bd0-4dac-bb63-4f6e34608b55" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/History Fact of the day.xcodeproj/project.xcworkspace/xcuserdata/Davis.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/History Fact of the day.xcodeproj/project.xcworkspace/xcuserdata/Davis.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change beforePath="$PROJECT_DIR$/History Fact of the day/ViewController.swift" afterPath="$PROJECT_DIR$/History Fact of the day/ViewController.swift" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +22,8 @@
       <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="361" column="90" lean-forward="false" selection-start-line="361" selection-start-column="90" selection-end-line="361" selection-end-column="90" />
+            <state relative-caret-position="676">
+              <caret line="373" column="72" lean-forward="false" selection-start-line="373" selection-start-column="72" selection-end-line="373" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -50,8 +51,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="84" />
     <option name="y" value="23" />
-    <option name="width" value="1299" />
-    <option name="height" value="770" />
+    <option name="width" value="1609" />
+    <option name="height" value="923" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -133,7 +134,7 @@
       <workItem from="1513804955889" duration="3287000" />
       <workItem from="1513882224398" duration="311000" />
       <workItem from="1513971539214" duration="1413000" />
-      <workItem from="1514397192534" duration="268000" />
+      <workItem from="1514397192534" duration="533000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed indenting that was triggering me.">
       <created>1513529183302</created>
@@ -387,18 +388,25 @@
       <option name="project" value="LOCAL" />
       <updated>1514397360085</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Added some facts">
+      <created>1514397467111</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1514397467111</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14124000" />
+    <option name="totallyTimeSpent" value="14389000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="84" y="23" width="1299" height="770" extended-state="0" />
+    <frame x="84" y="23" width="1609" height="923" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26943803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21752642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -537,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="361" column="90" lean-forward="false" selection-start-line="361" selection-start-column="90" selection-end-line="361" selection-end-column="90" />
+        <state relative-caret-position="676">
+          <caret line="373" column="72" lean-forward="false" selection-start-line="373" selection-start-column="72" selection-end-line="373" selection-end-column="72" />
           <folding />
         </state>
       </provider>
