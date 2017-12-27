@@ -353,13 +353,13 @@ class ViewController: UIViewController
         }
         i = i + 1
 
-        factsArray.append("This is fact #47")
+        factsArray.append("Money was once designed to discourage people from having a lot of it.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #48")
+        factsArray.append("Tickling may have been used for torture during the Han Dynasty.")
         if i == max {
             return
         }

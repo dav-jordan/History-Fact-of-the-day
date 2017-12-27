@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bbece303-2bd0-4dac-bb63-4f6e34608b55" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/History Fact of the day.xcodeproj/project.xcworkspace/xcuserdata/Davis.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/History Fact of the day.xcodeproj/project.xcworkspace/xcuserdata/Davis.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change beforePath="$PROJECT_DIR$/History Fact of the day/ViewController.swift" afterPath="$PROJECT_DIR$/History Fact of the day/ViewController.swift" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +21,8 @@
       <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="349" column="107" lean-forward="false" selection-start-line="349" selection-start-column="107" selection-end-line="349" selection-end-column="107" />
+            <state relative-caret-position="580">
+              <caret line="361" column="90" lean-forward="false" selection-start-line="361" selection-start-column="90" selection-end-line="361" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -134,7 +133,7 @@
       <workItem from="1513804955889" duration="3287000" />
       <workItem from="1513882224398" duration="311000" />
       <workItem from="1513971539214" duration="1413000" />
-      <workItem from="1514397192534" duration="158000" />
+      <workItem from="1514397192534" duration="268000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed indenting that was triggering me.">
       <created>1513529183302</created>
@@ -381,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513972831777</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Added some facts">
+      <created>1514397360085</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1514397360085</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14014000" />
+    <option name="totallyTimeSpent" value="14124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="84" y="23" width="1299" height="770" extended-state="0" />
@@ -419,7 +425,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added fact array and initialized to just fact numbers for testing" />
     <MESSAGE value="Made MAX_FACTS to make array resizing easier in the future" />
     <MESSAGE value="Added functionality to button pressed action. *Testing needed*" />
     <MESSAGE value="Changed text field to text view so it can be more than one line" />
@@ -444,7 +449,8 @@
     <MESSAGE value="Changed MAX_FACTS to reflect how many facts have been added" />
     <MESSAGE value="Added a few facts" />
     <MESSAGE value="Changed MAX_FACTS to reflect that facts have been added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed MAX_FACTS to reflect that facts have been added" />
+    <MESSAGE value="Added some facts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some facts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -531,8 +537,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="349" column="107" lean-forward="false" selection-start-line="349" selection-start-column="107" selection-end-line="349" selection-end-column="107" />
+        <state relative-caret-position="580">
+          <caret line="361" column="90" lean-forward="false" selection-start-line="361" selection-start-column="90" selection-end-line="361" selection-end-column="90" />
           <folding />
         </state>
       </provider>
