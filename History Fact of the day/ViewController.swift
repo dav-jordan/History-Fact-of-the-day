@@ -335,19 +335,19 @@ class ViewController: UIViewController
         }
         i = i + 1
 
-        factsArray.append("This is fact #44")
+        factsArray.append("The Swastika was a symbol of good before the Nazis got a hold of it.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #45")
+        factsArray.append("The Olympics used to give medals for art.")
         if i == max {
             return
         }
         i = i + 1
 
-        factsArray.append("This is fact #46")
+        factsArray.append("English was once a language for \"commoners\" while British elites spoke French.")
         if i == max {
             return
         }
