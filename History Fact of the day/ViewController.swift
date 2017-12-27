@@ -45,7 +45,6 @@ class ViewController: UIViewController
     //IBAction for when button is pressed
     @IBAction func ButtonPressed(_ sender: UIButton)
     {
-        print("Button pressed")
         let sub:Int = Int(arc4random_uniform(MAX_FACTS))
         FactText.text = factsArray[sub]
     }
