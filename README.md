@@ -1,3 +1,5 @@
+#History Fact of the Day
+
 *Fully Functional but would like ot add more facts in the future*
 
 This is a simple one page app that sends the user one history fact every day. 
