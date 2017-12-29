@@ -1,4 +1,4 @@
-#History Fact of the Day
+History Fact of the Day
 
 *Fully Functional but would like ot add more facts in the future*
 
