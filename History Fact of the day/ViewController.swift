@@ -56,6 +56,30 @@ class ViewController: UIViewController
         FactText.text = factsArray[sub]
     }
 
+    //adds banner to view
+    //*This code is from the AdMob tutorial for adding banner ads to an app*
+    //*I do not claim ownership of the code in this function*
+    func addBannerViewToView(_ bannerView: GADBannerView) {
+        bannerView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(bannerView)
+        view.addConstraints(
+                [NSLayoutConstraint(item: bannerView,
+                        attribute: .bottom,
+                        relatedBy: .equal,
+                        toItem: bottomLayoutGuide,
+                        attribute: .top,
+                        multiplier: 1,
+                        constant: 0),
+                    NSLayoutConstraint(item: bannerView,
+                            attribute: .centerX,
+                            relatedBy: .equal,
+                            toItem: view,
+                            attribute: .centerX,
+                            multiplier: 1,
+                            constant: 0)
+                ])
+    }
+
     /*  -I apologize to anyone reading this code at this point
         -the makeFacts function initializes all the facts in the facts array
         -I couldn't really find a better way of doing this other thn hard coding everything

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbece303-2bd0-4dac-bb63-4f6e34608b55" name="Default" comment="Initialized banner">
+    <list default="true" id="bbece303-2bd0-4dac-bb63-4f6e34608b55" name="Default" comment="Added addBanner function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/History Fact of the day/ViewController.swift" afterPath="$PROJECT_DIR$/History Fact of the day/ViewController.swift" />
     </list>
@@ -18,11 +18,11 @@
       <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="380">
+              <caret line="68" column="49" lean-forward="true" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
               <folding>
                 <element signature="e#160#182#0" expanded="true" />
-                <element signature="e#1867#10846#0" expanded="false" />
+                <element signature="e#2890#11869#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -48,10 +48,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
-    <option name="y" value="24" />
-    <option name="width" value="1609" />
-    <option name="height" value="792" />
+    <option name="x" value="4" />
+    <option name="y" value="29" />
+    <option name="width" value="1436" />
+    <option name="height" value="752" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -135,7 +135,7 @@
       <workItem from="1513882224398" duration="311000" />
       <workItem from="1513971539214" duration="1413000" />
       <workItem from="1514397192534" duration="1036000" />
-      <workItem from="1515957354930" duration="251000" />
+      <workItem from="1515957354930" duration="452000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed indenting that was triggering me.">
       <created>1513529183302</created>
@@ -424,20 +424,27 @@
       <option name="project" value="LOCAL" />
       <updated>1515957483895</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Initialized banner">
+      <created>1515957610325</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1515957610325</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15143000" />
+    <option name="totallyTimeSpent" value="15344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="24" width="1609" height="792" extended-state="0" />
+    <frame x="4" y="29" width="1436" height="752" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21752642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24373259" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34705883" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -462,7 +469,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initiated factText to greet the user" />
     <MESSAGE value="Changed color of button text to look more like a button" />
     <MESSAGE value="Put in makeFacts function and added a print statement for testing" />
     <MESSAGE value="Deleted while loop" />
@@ -487,14 +493,15 @@
     <MESSAGE value="Took out test print statement" />
     <MESSAGE value="Started adding banner ads" />
     <MESSAGE value="Initialized banner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialized banner" />
+    <MESSAGE value="Added addBanner function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added addBanner function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/History Fact of the day/ViewController.swift</url>
-          <line>209</line>
+          <line>233</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -508,7 +515,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1867#10846#0" expanded="false" />
+            <element signature="e#2890#11869#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -519,7 +526,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1867#10846#0" expanded="false" />
+            <element signature="e#2890#11869#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -530,7 +537,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1867#10846#0" expanded="false" />
+            <element signature="e#2890#11869#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -541,7 +548,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1867#10846#0" expanded="false" />
+            <element signature="e#2890#11869#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -552,7 +559,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1867#10846#0" expanded="false" />
+            <element signature="e#2890#11869#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -563,7 +570,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1867#10846#0" expanded="false" />
+            <element signature="e#2890#11869#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -574,7 +581,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1867#10846#0" expanded="false" />
+            <element signature="e#2890#11869#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -585,7 +592,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1867#10846#0" expanded="false" />
+            <element signature="e#2890#11869#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -603,7 +610,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1867#10846#0" expanded="false" />
+            <element signature="e#2890#11869#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -617,11 +624,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="380">
+          <caret line="68" column="49" lean-forward="true" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1867#10846#0" expanded="false" />
+            <element signature="e#2890#11869#0" expanded="false" />
           </folding>
         </state>
       </provider>
