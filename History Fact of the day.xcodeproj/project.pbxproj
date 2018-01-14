@@ -12,7 +12,6 @@
 		3EC1E992F288E70A4862A22C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC1E41C0CDE379B34DE0C36 /* LaunchScreen.storyboard */; };
 		3EC1EB3E15826BC5459ADC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC1EDCAAA3C583FEF5A8811 /* Assets.xcassets */; };
 		3EC1EC267A67FD559479F630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC1E2D9047D52215CEE833E /* Main.storyboard */; };
-		D77F1F0E41EC89746DCB0AAC /* Pods_History_Fact_of_the_day.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08E696F20B17B5A1336F56F3 /* Pods_History_Fact_of_the_day.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +32,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08E696F20B17B5A1336F56F3 /* Pods_History_Fact_of_the_day.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_History_Fact_of_the_day.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		198D7167A883955284BCB8C3 /* Pods-History Fact of the day.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-History Fact of the day.release.xcconfig"; path = "Pods/Target Support Files/Pods-History Fact of the day/Pods-History Fact of the day.release.xcconfig"; sourceTree = "<group>"; };
 		3EC1E49520B2C21ADB079164 /* History Fact of the dayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "History Fact of the dayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC1EA2303D1662AD43602A8 /* History Fact of the dayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "History Fact of the dayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC1EA5B43DDB5DA7F1286AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +41,8 @@
 		3EC1EE6AA8E59F32070AD97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EC1EF48BE1FA1DA9E464617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EC1EF6E10086303FC5EA438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B2A907D7721679D17AE8EF60 /* Pods-History Fact of the day.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-History Fact of the day.debug.xcconfig"; path = "Pods/Target Support Files/Pods-History Fact of the day/Pods-History Fact of the day.debug.xcconfig"; sourceTree = "<group>"; };
+		D24678F8F7E0A4B172D55B43 /* Pods-History Fact of the day.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-History Fact of the day.release.xcconfig"; path = "Pods/Target Support Files/Pods-History Fact of the day/Pods-History Fact of the day.release.xcconfig"; sourceTree = "<group>"; };
+		DDCD367B31F7B73BA86817F3 /* Pods-History Fact of the day.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-History Fact of the day.debug.xcconfig"; path = "Pods/Target Support Files/Pods-History Fact of the day/Pods-History Fact of the day.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D77F1F0E41EC89746DCB0AAC /* Pods_History_Fact_of_the_day.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,8 +85,7 @@
 			children = (
 				3EC1E164C62FD59583006FFA /* Products */,
 				3EC1EDD11BDDEBB7B5047C4D /* History Fact of the day */,
-				D44907601F324F974475BE73 /* Pods */,
-				61EFE59FF6F82AD37C8EDC37 /* Frameworks */,
+				855AA3EA3F4992C5F753001B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,19 +102,11 @@
 			path = "History Fact of the day";
 			sourceTree = "<group>";
 		};
-		61EFE59FF6F82AD37C8EDC37 /* Frameworks */ = {
+		855AA3EA3F4992C5F753001B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				08E696F20B17B5A1336F56F3 /* Pods_History_Fact_of_the_day.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D44907601F324F974475BE73 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B2A907D7721679D17AE8EF60 /* Pods-History Fact of the day.debug.xcconfig */,
-				198D7167A883955284BCB8C3 /* Pods-History Fact of the day.release.xcconfig */,
+				DDCD367B31F7B73BA86817F3 /* Pods-History Fact of the day.debug.xcconfig */,
+				D24678F8F7E0A4B172D55B43 /* Pods-History Fact of the day.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -130,12 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EC1E4E1A6161DFD0FF71AD6 /* Build configuration list for PBXNativeTarget "History Fact of the day" */;
 			buildPhases = (
-				2BF350CCA87598D83AC5E507 /* [CP] Check Pods Manifest.lock */,
+				4E31B4F9EE50967968A203EF /* [CP] Check Pods Manifest.lock */,
 				3EC1E21AEF20F37735CDFCAC /* Sources */,
 				3EC1EC2901F8AA1EA7677605 /* Frameworks */,
 				3EC1EADFD7A83FF18FC6E540 /* Resources */,
-				8997EDA4B6059CC99DE757C5 /* [CP] Embed Pods Frameworks */,
-				3A644E63C33C1D9A2484DCEA /* [CP] Copy Pods Resources */,
+				8E6AD23EFA056FDEC3A31DB0 /* [CP] Embed Pods Frameworks */,
+				FEC7AB2EC1FA89E74F5B4648 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,7 +230,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2BF350CCA87598D83AC5E507 /* [CP] Check Pods Manifest.lock */ = {
+		4E31B4F9EE50967968A203EF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -260,22 +248,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3A644E63C33C1D9A2484DCEA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-History Fact of the day/Pods-History Fact of the day-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8997EDA4B6059CC99DE757C5 /* [CP] Embed Pods Frameworks */ = {
+		8E6AD23EFA056FDEC3A31DB0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,6 +261,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-History Fact of the day/Pods-History Fact of the day-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEC7AB2EC1FA89E74F5B4648 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-History Fact of the day/Pods-History Fact of the day-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -514,7 +502,7 @@
 		};
 		3EC1EC8A8BA8B090C2622349 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 198D7167A883955284BCB8C3 /* Pods-History Fact of the day.release.xcconfig */;
+			baseConfigurationReference = D24678F8F7E0A4B172D55B43 /* Pods-History Fact of the day.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VY3PXR54B9;
@@ -530,7 +518,7 @@
 		};
 		3EC1EDC3038BC34945F05314 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2A907D7721679D17AE8EF60 /* Pods-History Fact of the day.debug.xcconfig */;
+			baseConfigurationReference = DDCD367B31F7B73BA86817F3 /* Pods-History Fact of the day.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VY3PXR54B9;
