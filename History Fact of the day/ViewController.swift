@@ -38,6 +38,9 @@ class ViewController: UIViewController
 
         //initialize all facts in factsArray
         makeFacts(max: Int(MAX_FACTS))
+
+        //initialize ad banner
+        adBanner = GADBannerView(adSize: kGADAdSizeBanner)
     }
 
     override func didReceiveMemoryWarning()
