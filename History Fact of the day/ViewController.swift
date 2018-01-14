@@ -43,6 +43,7 @@ class ViewController: UIViewController
         adBanner = GADBannerView(adSize: kGADAdSizeBanner)
         adBanner.adUnitID = "ca-app-pub-9251731842452047/3840624000"
         adBanner.rootViewController  = self
+        adBanner.load(GADRequest())
     }
 
     override func didReceiveMemoryWarning()
@@ -56,6 +57,7 @@ class ViewController: UIViewController
     {
         let sub:Int = Int(arc4random_uniform(MAX_FACTS))
         FactText.text = factsArray[sub]
+        adBanner.load(GADRequest())
     }
 
     //adds banner to view
@@ -81,6 +83,7 @@ class ViewController: UIViewController
                             constant: 0)
                 ])
     }
+
 
     /*  -I apologize to anyone reading this code at this point
         -the makeFacts function initializes all the facts in the facts array
