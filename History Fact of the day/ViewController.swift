@@ -41,6 +41,8 @@ class ViewController: UIViewController
 
         //initialize ad banner
         adBanner = GADBannerView(adSize: kGADAdSizeBanner)
+        adBanner.adUnitID = "ca-app-pub-9251731842452047/3840624000"
+        adBanner.rootViewController  = self
     }
 
     override func didReceiveMemoryWarning()
