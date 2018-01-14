@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3EC1E4733DD48CC0B6B32939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC1EF48BE1FA1DA9E464617 /* AppDelegate.swift */; };
-		3EC1E4854B749E119798D6D5 /* History_Fact_of_the_dayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC1E6FA02A9B427629B73BF /* History_Fact_of_the_dayTests.swift */; };
 		3EC1E5592BB05DFE2427F56E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC1EB01176EEC84CDD2610C /* ViewController.swift */; };
-		3EC1E7ADB4A77ADEBF4BD7A0 /* History_Fact_of_the_dayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC1EBD7E06B82993F411F64 /* History_Fact_of_the_dayUITests.swift */; };
 		3EC1E992F288E70A4862A22C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC1E41C0CDE379B34DE0C36 /* LaunchScreen.storyboard */; };
 		3EC1EB3E15826BC5459ADC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC1EDCAAA3C583FEF5A8811 /* Assets.xcassets */; };
 		3EC1EC267A67FD559479F630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC1E2D9047D52215CEE833E /* Main.storyboard */; };
+		D77F1F0E41EC89746DCB0AAC /* Pods_History_Fact_of_the_day.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08E696F20B17B5A1336F56F3 /* Pods_History_Fact_of_the_day.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +33,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08E696F20B17B5A1336F56F3 /* Pods_History_Fact_of_the_day.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_History_Fact_of_the_day.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		198D7167A883955284BCB8C3 /* Pods-History Fact of the day.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-History Fact of the day.release.xcconfig"; path = "Pods/Target Support Files/Pods-History Fact of the day/Pods-History Fact of the day.release.xcconfig"; sourceTree = "<group>"; };
 		3EC1E49520B2C21ADB079164 /* History Fact of the dayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "History Fact of the dayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EC1E4C69E1A3C026441A21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		3EC1E6FA02A9B427629B73BF /* History_Fact_of_the_dayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History_Fact_of_the_dayTests.swift; sourceTree = "<group>"; };
 		3EC1EA2303D1662AD43602A8 /* History Fact of the dayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "History Fact of the dayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC1EA5B43DDB5DA7F1286AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		3EC1EB01176EEC84CDD2610C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3EC1EBD7E06B82993F411F64 /* History_Fact_of_the_dayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History_Fact_of_the_dayUITests.swift; sourceTree = "<group>"; };
 		3EC1ECB658343C3143380158 /* History Fact of the day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "History Fact of the day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC1EDCAAA3C583FEF5A8811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EC1EE6AA8E59F32070AD97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3EC1EE767A0CBB7DA98BECD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		3EC1EF48BE1FA1DA9E464617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EC1EF6E10086303FC5EA438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2A907D7721679D17AE8EF60 /* Pods-History Fact of the day.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-History Fact of the day.debug.xcconfig"; path = "Pods/Target Support Files/Pods-History Fact of the day/Pods-History Fact of the day.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D77F1F0E41EC89746DCB0AAC /* Pods_History_Fact_of_the_day.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,31 +83,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3EC1E532488CF13EA9410032 /* History Fact of the dayTests */ = {
-			isa = PBXGroup;
-			children = (
-				3EC1EE767A0CBB7DA98BECD9 /* Info.plist */,
-				3EC1E6FA02A9B427629B73BF /* History_Fact_of_the_dayTests.swift */,
-			);
-			path = "History Fact of the dayTests";
-			sourceTree = "<group>";
-		};
-		3EC1E9509E56140FDE8C2934 /* History Fact of the dayUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3EC1E4C69E1A3C026441A21E /* Info.plist */,
-				3EC1EBD7E06B82993F411F64 /* History_Fact_of_the_dayUITests.swift */,
-			);
-			path = "History Fact of the dayUITests";
-			sourceTree = "<group>";
-		};
 		3EC1E9A350E1243AF35E4B68 = {
 			isa = PBXGroup;
 			children = (
 				3EC1E164C62FD59583006FFA /* Products */,
 				3EC1EDD11BDDEBB7B5047C4D /* History Fact of the day */,
-				3EC1E532488CF13EA9410032 /* History Fact of the dayTests */,
-				3EC1E9509E56140FDE8C2934 /* History Fact of the dayUITests */,
+				D44907601F324F974475BE73 /* Pods */,
+				61EFE59FF6F82AD37C8EDC37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +106,23 @@
 			path = "History Fact of the day";
 			sourceTree = "<group>";
 		};
+		61EFE59FF6F82AD37C8EDC37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08E696F20B17B5A1336F56F3 /* Pods_History_Fact_of_the_day.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D44907601F324F974475BE73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2A907D7721679D17AE8EF60 /* Pods-History Fact of the day.debug.xcconfig */,
+				198D7167A883955284BCB8C3 /* Pods-History Fact of the day.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EC1E4E1A6161DFD0FF71AD6 /* Build configuration list for PBXNativeTarget "History Fact of the day" */;
 			buildPhases = (
+				2BF350CCA87598D83AC5E507 /* [CP] Check Pods Manifest.lock */,
 				3EC1E21AEF20F37735CDFCAC /* Sources */,
 				3EC1EC2901F8AA1EA7677605 /* Frameworks */,
 				3EC1EADFD7A83FF18FC6E540 /* Resources */,
+				8997EDA4B6059CC99DE757C5 /* [CP] Embed Pods Frameworks */,
+				3A644E63C33C1D9A2484DCEA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,6 +189,11 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = "Davis Jordan";
+				TargetAttributes = {
+					3EC1E6501B52569A2D7F296F = {
+						DevelopmentTeam = VY3PXR54B9;
+					};
+				};
 			};
 			buildConfigurationList = 3EC1E4CBDA7E1D1CCD9BCA55 /* Build configuration list for PBXProject "History Fact of the day" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -235,6 +241,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BF350CCA87598D83AC5E507 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-History Fact of the day-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A644E63C33C1D9A2484DCEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-History Fact of the day/Pods-History Fact of the day-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8997EDA4B6059CC99DE757C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-History Fact of the day/Pods-History Fact of the day-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3EC1E21AEF20F37735CDFCAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -249,7 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EC1E4854B749E119798D6D5 /* History_Fact_of_the_dayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +313,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EC1E7ADB4A77ADEBF4BD7A0 /* History_Fact_of_the_dayUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,9 +514,12 @@
 		};
 		3EC1EC8A8BA8B090C2622349 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 198D7167A883955284BCB8C3 /* Pods-History Fact of the day.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VY3PXR54B9;
 				INFOPLIST_FILE = "History Fact of the day/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jordan.History-Fact-of-the-day";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -472,9 +530,12 @@
 		};
 		3EC1EDC3038BC34945F05314 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A907D7721679D17AE8EF60 /* Pods-History Fact of the day.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VY3PXR54B9;
 				INFOPLIST_FILE = "History Fact of the day/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jordan.History-Fact-of-the-day";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,6 +563,7 @@
 				3EC1EC8A8BA8B090C2622349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EC1ECA7669B11F65D56F38B /* Build configuration list for PBXNativeTarget "History Fact of the dayUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +572,7 @@
 				3EC1EA8D7B39FDF78A0EFA74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EC1EE42D067E90E94183AC9 /* Build configuration list for PBXNativeTarget "History Fact of the dayTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +581,7 @@
 				3EC1EA2CED0FC0EB00F72681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -6,6 +6,7 @@
 //  Copyright © 2017 Davis Jordan. All rights reserved.
 //
 
+import GoogleMobileAds
 import UIKit
 
 
@@ -20,6 +21,9 @@ class ViewController: UIViewController
 
     //array of strings that will hold all of the possible facts
     var factsArray:[String] = [" "]
+
+    //ad banner view
+    var adBanner: GADBannerView!
 
     override func viewDidLoad()
     {
@@ -308,7 +312,7 @@ class ViewController: UIViewController
         }
         i = i + 1
 
-        factsArray.append("In the 16th century, wealth Europeans would eat corpses, thinking it would " +
+        factsArray.append("In the 16th century, wealthy Europeans would eat corpses, thinking it would " +
                           "cure ailments.")
         if i == max {
             return
