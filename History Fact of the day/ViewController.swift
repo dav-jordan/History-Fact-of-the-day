@@ -22,12 +22,12 @@ class ViewController: UIViewController
     //array of strings that will hold all of the possible facts
     var factsArray:[String] = [" "]
 
-    //ad banner view
-    var adBanner: GADBannerView!
-
     override func viewDidLoad()
     {
         super.viewDidLoad()
+
+        //ad banner view
+        var adBanner: GADBannerView!
 
         //makes text field for fact read only
         FactText.isEditable = false
@@ -44,6 +44,7 @@ class ViewController: UIViewController
         adBanner.adUnitID = "ca-app-pub-3940256099942544/2934735716"
         adBanner.rootViewController  = self
         adBanner.load(GADRequest())
+        addBannerViewToView(adBanner)
     }
 
     override func didReceiveMemoryWarning()
@@ -57,8 +58,6 @@ class ViewController: UIViewController
     {
         let sub:Int = Int(arc4random_uniform(MAX_FACTS))
         FactText.text = factsArray[sub]
-        adBanner.load(GADRequest())
-        addBannerViewToView(adBanner)
     }
 
     //adds banner to view
