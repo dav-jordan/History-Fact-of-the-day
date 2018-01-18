@@ -26,6 +26,10 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
 
+        //testing only
+        let request = GADRequest()
+        request.testDevices = ["5E5B1E3F-BCD9-4562-97F3-9C997F28B3FE"]
+
         //ad banner view
         var adBanner: GADBannerView!
 

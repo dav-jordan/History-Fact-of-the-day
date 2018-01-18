@@ -18,12 +18,12 @@
       <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="143">
+              <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding>
                 <element signature="e#160#182#0" expanded="true" />
-                <element signature="e#1816#2688#0" expanded="false" />
-                <element signature="e#3106#12085#0" expanded="false" />
+                <element signature="e#1954#2826#0" expanded="false" />
+                <element signature="e#3244#12223#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -138,7 +138,7 @@
       <workItem from="1514397192534" duration="1036000" />
       <workItem from="1515957354930" duration="1000000" />
       <workItem from="1515959312750" duration="99000" />
-      <workItem from="1516290767137" duration="886000" />
+      <workItem from="1516290767137" duration="1045000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed indenting that was triggering me.">
       <created>1513529183302</created>
@@ -469,11 +469,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516290950930</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Moved some stuff for testing">
+      <created>1516291687073</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1516291687073</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16877000" />
+    <option name="totallyTimeSpent" value="17036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="29" width="1436" height="752" extended-state="0" />
@@ -507,7 +514,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tested hard coding in facts" />
     <MESSAGE value="Added documentation" />
     <MESSAGE value="Fixed index errors" />
     <MESSAGE value="Added int parameter to makeFacts function" />
@@ -532,14 +538,15 @@
     <MESSAGE value="Added places to load ads" />
     <MESSAGE value="TODO: add ads to view without crashing" />
     <MESSAGE value="Tried fixing crash on loading ad" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tried fixing crash on loading ad" />
+    <MESSAGE value="Moved some stuff for testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved some stuff for testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/History Fact of the day/ViewController.swift</url>
-          <line>238</line>
+          <line>242</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -553,8 +560,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1816#2688#0" expanded="false" />
-            <element signature="e#3106#12085#0" expanded="false" />
+            <element signature="e#1954#2826#0" expanded="false" />
+            <element signature="e#3244#12223#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -565,8 +572,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1816#2688#0" expanded="false" />
-            <element signature="e#3106#12085#0" expanded="false" />
+            <element signature="e#1954#2826#0" expanded="false" />
+            <element signature="e#3244#12223#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -577,8 +584,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1816#2688#0" expanded="false" />
-            <element signature="e#3106#12085#0" expanded="false" />
+            <element signature="e#1954#2826#0" expanded="false" />
+            <element signature="e#3244#12223#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -589,8 +596,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1816#2688#0" expanded="false" />
-            <element signature="e#3106#12085#0" expanded="false" />
+            <element signature="e#1954#2826#0" expanded="false" />
+            <element signature="e#3244#12223#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -601,8 +608,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1816#2688#0" expanded="false" />
-            <element signature="e#3106#12085#0" expanded="false" />
+            <element signature="e#1954#2826#0" expanded="false" />
+            <element signature="e#3244#12223#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -613,8 +620,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1816#2688#0" expanded="false" />
-            <element signature="e#3106#12085#0" expanded="false" />
+            <element signature="e#1954#2826#0" expanded="false" />
+            <element signature="e#3244#12223#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -625,8 +632,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1816#2688#0" expanded="false" />
-            <element signature="e#3106#12085#0" expanded="false" />
+            <element signature="e#1954#2826#0" expanded="false" />
+            <element signature="e#3244#12223#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -637,8 +644,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1816#2688#0" expanded="false" />
-            <element signature="e#3106#12085#0" expanded="false" />
+            <element signature="e#1954#2826#0" expanded="false" />
+            <element signature="e#3244#12223#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -649,8 +656,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1816#2688#0" expanded="false" />
-            <element signature="e#3106#12085#0" expanded="false" />
+            <element signature="e#1954#2826#0" expanded="false" />
+            <element signature="e#3244#12223#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -661,8 +668,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1816#2688#0" expanded="false" />
-            <element signature="e#3106#12085#0" expanded="false" />
+            <element signature="e#1954#2826#0" expanded="false" />
+            <element signature="e#3244#12223#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -680,8 +687,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1816#2688#0" expanded="false" />
-            <element signature="e#3106#12085#0" expanded="false" />
+            <element signature="e#1954#2826#0" expanded="false" />
+            <element signature="e#3244#12223#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -695,12 +702,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/History Fact of the day/ViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="143">
+          <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
             <element signature="e#160#182#0" expanded="true" />
-            <element signature="e#1816#2688#0" expanded="false" />
-            <element signature="e#3106#12085#0" expanded="false" />
+            <element signature="e#1954#2826#0" expanded="false" />
+            <element signature="e#3244#12223#0" expanded="false" />
           </folding>
         </state>
       </provider>
