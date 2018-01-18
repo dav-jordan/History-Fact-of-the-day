@@ -41,7 +41,7 @@ class ViewController: UIViewController
 
         //initialize ad banner
         adBanner = GADBannerView(adSize: kGADAdSizeBanner)
-        adBanner.adUnitID = "ca-app-pub-9251731842452047/3840624000"
+        adBanner.adUnitID = "ca-app-pub-3940256099942544/2934735716"
         adBanner.rootViewController  = self
         adBanner.load(GADRequest())
     }
@@ -58,6 +58,7 @@ class ViewController: UIViewController
         let sub:Int = Int(arc4random_uniform(MAX_FACTS))
         FactText.text = factsArray[sub]
         adBanner.load(GADRequest())
+        addBannerViewToView(adBanner)
     }
 
     //adds banner to view
