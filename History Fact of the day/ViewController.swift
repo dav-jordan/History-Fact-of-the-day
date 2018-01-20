@@ -6,7 +6,6 @@
 //  Copyright © 2017 Davis Jordan. All rights reserved.
 //
 
-import GoogleMobileAds
 import UIKit
 
 
@@ -26,13 +25,6 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
 
-        //testing only
-        let request = GADRequest()
-        request.testDevices = ["5E5B1E3F-BCD9-4562-97F3-9C997F28B3FE"]
-
-        //ad banner view
-        var adBanner: GADBannerView!
-
         //makes text field for fact read only
         FactText.isEditable = false
 
@@ -43,12 +35,6 @@ class ViewController: UIViewController
         //initialize all facts in factsArray
         makeFacts(max: Int(MAX_FACTS))
 
-        //initialize ad banner
-        adBanner = GADBannerView(adSize: kGADAdSizeBanner)
-        adBanner.adUnitID = "ca-app-pub-3940256099942544/2934735716"
-        adBanner.rootViewController  = self
-        adBanner.load(GADRequest())
-        addBannerViewToView(adBanner)
     }
 
     override func didReceiveMemoryWarning()
@@ -63,31 +49,6 @@ class ViewController: UIViewController
         let sub:Int = Int(arc4random_uniform(MAX_FACTS))
         FactText.text = factsArray[sub]
     }
-
-    //adds banner to view
-    //*This code is from the AdMob tutorial for adding banner ads to an app*
-    //*I do not claim ownership of the code in this function*
-    func addBannerViewToView(_ bannerView: GADBannerView) {
-        bannerView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(bannerView)
-        view.addConstraints(
-                [NSLayoutConstraint(item: bannerView,
-                        attribute: .bottom,
-                        relatedBy: .equal,
-                        toItem: view.safeAreaLayoutGuide.bottomAnchor,
-                        attribute: .top,
-                        multiplier: 1,
-                        constant: 0),
-                    NSLayoutConstraint(item: bannerView,
-                            attribute: .centerX,
-                            relatedBy: .equal,
-                            toItem: view,
-                            attribute: .centerX,
-                            multiplier: 1,
-                            constant: 0)
-                ])
-    }
-
 
     /*  -I apologize to anyone reading this code at this point
         -the makeFacts function initializes all the facts in the facts array
